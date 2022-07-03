@@ -1,5 +1,5 @@
 
-    let redBtn = document.getElementById("red")
+    let redBtn = document.getElementById("red");
     let blueBtn = document.getElementsById("blue");
     let blackBtn = document.getElementsById("black");
     let bike = document.getElementsById("bike");
