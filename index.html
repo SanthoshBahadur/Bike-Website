@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Bike Website</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+
+
+  <div class="container" id="bike">
+
+
+    <nav>
+      <img src="images/logo.png" class="logo">
+      <a href="#" class="btn">Test Ride</a>
+    </nav>
+
+    <div class="content">
+      <h2>THE BMW</h2>
+      <h1>G 310 R</h1>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+        s00ed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+        sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+      <h3>Choose Your Colour</h3>
+    </div>
+
+    <div class="colour-select">
+      <div id="red">
+
+      </div>
+      <div id="blue">
+
+      </div>
+      <div id="black">
+
+      </div>
+    </div>
+
+
+  </div>
+
+
+  <script type="text/javascript" >
+    let redBtn = document.getElementById("red")
+    let blueBtn = document.getElementsById("blue");
+    let blackBtn = document.getElementsById("black");
+    let bike = document.getElementsById("bike");
+
+    redBtn.onclick = function() {
+      bike.style.backgroundImage = "url('images/BMW1.png')";
+    }
+    blueBtn.onclick = function() {
+      bike.style.backgroundImage = "url('images/BMW2.png')";
+    }
+    blackBtn.onclick = function() {
+      bike.style.backgroundImage ="url('images/BMW3.png')";
+    }
+  </script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+
+</html>
